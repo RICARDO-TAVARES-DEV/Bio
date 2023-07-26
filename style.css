@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+header nav {
+    display: flex;
+    width: 12vw;
+
+}
+
+main p {
+    width: 30vw;
+    color: #fff;
+}
+
+body {
+    background-color: transparent;
+    border: solid black;
+    background-image: url("img/Rio-de-Janeiro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.logo {
+    width: 10vw;
+    display: flex;
+}
+
+.resumo {
+    display: flex;
+    width: 10vw;
+    text-decoration: none;
+    list-style-type: style none;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+
+.cinema {
+    width: 30vw;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 10px;
+}
+
+.filmes {
+    width: 30vh;
+    display: flex;
+}
+
+ol {
+    /* width: 80vh; */
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.local {
+    text-decoration: none;
+}
+
+
+form a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
